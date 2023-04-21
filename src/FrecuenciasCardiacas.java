@@ -17,7 +17,7 @@ public class FrecuenciasCardiacas {
     }
     //Metodos
     public int FechaAnios(){
-        return 023 - anio;
+        return 2023 - anio;
     }
     public int FrecuenciaCardiacaMax(){
         return 220-FechaAnios();

@@ -22,8 +22,9 @@ public class FrecuenciasCardiacas {
     public int FrecuenciaCardiacaMax(){
         return 220-FechaAnios();
     }
-    public double FrecuenciaCardiacaEsperada(){
-        return 0.5*FrecuenciaCardiacaMax();
+    public String FrecuenciaCardiacaEsperada(){
+        return calcularFrecuenciaCardiacaMax()*0.5+"/"+calcularFrecuenciaCardiacaMax()*0.85;
+    }
     }
     //Getter & Setter
     public String getPrimerNombre() {

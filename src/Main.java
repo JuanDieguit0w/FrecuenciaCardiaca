@@ -41,8 +41,8 @@ public class Main {
 
         System.out.println("FRECUENCIAS CARDIACAS");
 
-        System.out.println("La frecuencia cardiaca maxima que deberia tener el paciente es: "+f1.FrecuenciaCardiacaMax());
-        System.out.println("La frecuencia cardiaca esperada del paciente son: "+f1.FrecuenciaCardiacaEsperada());
+        System.out.println("La frecuencia cardiaca maxima que deberia tener el paciente es: "+f1.calcularFrecuenciaCardiacaMax());
+        System.out.println("La frecuencia cardiaca esperada del paciente son: "+f1.calcularFrecuenciaCardiacaEsperada());
 
         //Constructor por parametros
 
@@ -76,7 +76,7 @@ public class Main {
 
         System.out.println("FRECUENCIAS CARDIACAS");
 
-        System.out.println("La frecuencia cardiaca maxima que deberia tener el paciente es: "+f2.FrecuenciaCardiacaMax());
-        System.out.println("La frecuencia cardiaca esperada del paciente son: "+f2.FrecuenciaCardiacaEsperada());
+        System.out.println("La frecuencia cardiaca maxima que deberia tener el paciente es: "+f2.calcularFrecuenciaCardiacaMax());
+        System.out.println("La frecuencia cardiaca esperada del paciente son: "+f2.calcularFrecuenciaCardiacaEsperada());
     }
 }
